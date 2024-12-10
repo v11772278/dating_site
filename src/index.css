@@ -2,13 +2,20 @@
 
 html,
 body {
-  font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Patrick Hand", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   height: 100%;
   margin: 0;
+}
+
+@font-face {
+  font-family: "Patrick Hand";
+  src: url("./assets/fonts/PatrickHand-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
@@ -17,17 +24,13 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   margin: 0;
-  font-family: "Caveat", cursive;
   background-color: #d3d3d3;
+  font-family: "Patrick Hand", Arial, sans-serif;
+  font-size: 20px;
   font-optical-sizing: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */
 
 a {
   list-style: none;

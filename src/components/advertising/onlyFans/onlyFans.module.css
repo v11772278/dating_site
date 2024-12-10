@@ -1,0 +1,21 @@
+.onlyFansBox {
+  min-width: 320px;
+  height: 200px;
+  background-image: url("../../../assets/onlyFans.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+
+  @media screen and (min-width: 768px) {
+    width: 728px;
+    height: 400px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 1240px;
+    height: 400px;
+  }
+}
+
+.section {
+  padding-top: 40px;
+}

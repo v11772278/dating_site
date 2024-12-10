@@ -1,9 +1,16 @@
 @import "../node_modules/modern-normalize/modern-normalize.css";
 
+html,
 body {
-  background-image: url("./assets/snowflakes-bright-lights.jpg");
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("/pictures/background_image.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   margin: 0;
   font-family: "Caveat", cursive;
   background-color: #d3d3d3;
@@ -15,10 +22,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-::marker {
-  content: "♦";
 }
 
 a {

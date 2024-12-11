@@ -1,6 +1,6 @@
 .onlyFansBox {
-  min-width: 320px;
-  height: 150px;
+  width: 320px;
+  height: 80px;
   background-image: url("/pictures/logo.jpg");
   background-position: center;
   background-size: contain;
@@ -12,11 +12,11 @@
 
   @media screen and (min-width: 768px) {
     width: 600px;
-    height: 200px;
+    height: 150px;
   }
   @media screen and (min-width: 1280px) {
     width: 800px;
-    height: 250px;
+    height: 200px;
   }
 }
 

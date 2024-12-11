@@ -2,11 +2,11 @@
   position: fixed;
   top: 10px;
   right: 10px;
-  background-color: yellow;
-  color: red;
-  padding: 15px;
+  background-color: #66c2e1;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
   font-weight: bold;
-  border: 2px solid red;
   text-align: center;
   animation: blinking-text 1s infinite;
   z-index: 1000;
@@ -15,12 +15,12 @@
 
 @keyframes blinking-text {
   0% {
-    color: red;
+    color: black;
   }
   50% {
     color: transparent;
   }
   100% {
-    color: red;
+    color: black;
   }
 }

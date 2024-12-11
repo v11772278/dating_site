@@ -1,12 +1,11 @@
 .onlyFansBox {
   width: 320px;
   height: 80px;
-  background-image: url("/pictures/logo.jpg");
+  background-image: url("/pictures/logo.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
   margin-left: auto;
   margin-right: auto;
 

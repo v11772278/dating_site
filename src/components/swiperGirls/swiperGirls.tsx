@@ -90,11 +90,11 @@ export const SwiperGirls: React.FC<SwiperGirlsProps> = ({ data }) => {
       </Swiper>
       <div className={css.buttonDiv}>
         {" "}
-        <button type="button" onClick={handleNext}>
-          {buttonLabels.next}
-        </button>
         <button type="button" onClick={handlePrevious}>
           {buttonLabels.prev}
+        </button>
+        <button type="button" onClick={handleNext}>
+          {buttonLabels.next}
         </button>
       </div>
     </section>
